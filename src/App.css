@@ -1,38 +1,224 @@
-.App {
+.input-1{
+  width: 120px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #c3bfbc;
+  border: none;
+}
+.home-page{
+  width: 100%;
+  height: 750px;
+  background-image: url('..//public/assets/images/image-home.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 150px;
+  margin-top: -35px;
+}
+.heading-1{
+  padding-top: 150px;
+  font-size: 70px;
+  color: #deb37e;
+  font-weight: bold; 
+}
+.para-1{
+  color: #54524f;
+  font-size: 30px;
+  font-weight: bold;
+}
+.btn-1{
+  padding: 5px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #54524f;
+  border: none;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.para-2{
+  max-width: 350px;
+  color: #54524f;
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+.heading-menu{
+  color: #e2a355;
+  font-size: 50px;
+  font-weight: bold;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.para-menu{
+  max-width: 400px;
+  color: #54524f;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.card-background{
+  background-color: #7f7770;
+}
+.card-heading{
+  font-size: 30px;
+ color: #fff;
+ margin-top: 20px;
+}
+.card-para{
+  color: #c4c1bd;
+  width: 250px;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu-btn{
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 30px;
+  background-color: #7f7770;
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  border: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.story-background{
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #7f7770;
+}
+.story-heading-1{
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.story-para-1{
+  color: #fff;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 30px;
+}
+.story-btn{
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 30px;
+  background-color: #e2a355;
+  width: 200px;
+  height: 45px;
+  border: none;
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.story-padding{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.story-background-1{
+  background-color: #deb37e;
+}
+.hiking{
+  background-image: url('..//public/assets/images/explore-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1500px;
+}
+.hiking-heading{
+  color: #fff;
+  font-size: 40px;
+  padding-top: 250px;
+  text-align: center;
+}
+.hiking-para{
+  max-width: 600px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+.contact-heading{
+  color: #deb37e;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact-para{
+  color: #333d42;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.contact-para-1{
+  margin: auto;
+  text-align: center;
+  max-width: 450px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+  background-image: url('..//public/assets/images/title-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+.title-heading{
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold;
+  padding-top: 200px;
+}
+.title-para{
+  color: #54524f;
+  max-width: 470px;
+  margin: auto;
+  text-align: center;
+}
+.input-btn{
+  text-align: center;
+}
+.title-input{
+  min-width: 300px;
+  height: 35px;
+  border: none;
+  border-radius: 30px;
+}
+.title-btn{
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #54524f;
+  min-width: 80px;
+  height: 35px;
+  border: none;
+  border-radius: 30px;
+  position: absolute;
+  margin-left: -50px;
+}
+.footer{
+  padding-bottom: 100px;
+  margin-top: 50px;
+  background-color: #7f7770;
+}
+.footer-heading{
+  color: #dddbd9;
+  padding-top: 100px;
+}
+.footer-para{
+  line-height: 18px;
+  color: #dddbd9;
+  max-width: 330px;
+}
+.footer-heading-2{
+  color: #dddbd9;
+  font-size: 16px;
+}
+.social{
+  display: flex;
+}
+.social-1{
+  margin: 3px;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
 }
